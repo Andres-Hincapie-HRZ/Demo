@@ -1,7 +1,7 @@
 // Load product data from JSON file
 let storeData = { products: [], categories: [] };
 
-fetch('/data/products.json')
+fetch('./data/products.json')
   .then(response => response.json())
   .then(data => {
     storeData = data;
