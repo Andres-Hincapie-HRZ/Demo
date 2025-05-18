@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EliteStore - Tienda Virtual</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">EliteStore</a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#categories">Categorías</a></li>
+          <li><a href="#featured">Destacados</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Buscar productos...">
+          <button id="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </button>
+        </div>
+        <div class="cart-icon" id="cart-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+          <span id="cart-count">0</span>
+        </div>
+        <button id="menu-toggle" class="mobile-menu-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Banner -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Descubre productos de calidad al mejor precio</h1>
+          <p>Envíos rápidos y seguros a todo el país</p>
+          <a href="#featured" class="btn-primary">Ver productos destacados</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories-section">
+      <div class="container">
+        <h2>Categorías</h2>
+        <div class="categories-grid" id="categories-container">
+          <!-- Categories will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="featured-section">
+      <div class="container">
+        <h2>Productos Destacados</h2>
+        <div class="filter-container">
+          <div class="active-category">Mostrando: <span id="current-category">Todos</span></div>
+          <div class="filter-buttons" id="category-filters">
+            <!-- Category filters will be loaded dynamically -->
+          </div>
+        </div>
+        <div class="products-grid" id="products-container">
+          <!-- Products will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h3>Carrito de Compras</h3>
+      <button id="close-cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <!-- Cart items will be loaded dynamically -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button class="btn-primary btn-checkout" id="checkout-btn">Proceder al pago</button>
+    </div>
+  </div>
+
+  <!-- Product Modal -->
+  <div class="product-modal" id="product-modal">
+    <div class="modal-content">
+      <button class="close-modal" id="close-modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+      </button>
+      <div class="modal-body" id="modal-body">
+        <!-- Product details will be loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>EliteStore</h3>
+          <p>Tu tienda online de confianza con productos de calidad al mejor precio.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: info@elitestore.com</p>
+          <p>Teléfono: +123 456 7890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EliteStore. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

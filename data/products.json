@@ -1,0 +1,113 @@
+{
+  "categories": ["Tecnología", "Ropa", "Hogar", "Belleza", "Accesorios"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone XS Pro",
+      "price": 799.99,
+      "category": "Tecnología",
+      "description": "El Smartphone XS Pro cuenta con una pantalla OLED de 6.5 pulgadas, procesador de última generación, 256GB de almacenamiento y una batería que dura todo el día. Su cámara triple de 48MP captura fotos increíbles incluso en condiciones de poca luz.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "name": "Laptop UltraBook 15",
+      "price": 1299.99,
+      "category": "Tecnología",
+      "description": "La Laptop UltraBook 15 es extremadamente delgada y ligera con un rendimiento excepcional. Cuenta con un procesador Intel Core i7, 16GB de RAM, 512GB SSD y una pantalla de alta resolución de 15 pulgadas. Perfecta para profesionales y creativos.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch Essential",
+      "price": 199.99,
+      "category": "Tecnología",
+      "description": "El Smartwatch Essential monitorea tu actividad física, sueño y ritmo cardíaco. Compatible con Android e iOS, cuenta con notificaciones inteligentes, resistencia al agua y una batería que dura hasta 7 días.",
+      "featured": false,
+      "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "Camiseta Premium",
+      "price": 29.99,
+      "category": "Ropa",
+      "description": "Camiseta de algodón 100% peinado de la más alta calidad. Diseño minimalista y corte moderno que se adapta perfectamente al cuerpo. Disponible en varios colores y tamaños.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Zapatillas Urban Style",
+      "price": 89.99,
+      "category": "Ropa",
+      "description": "Zapatillas Urban Style combina confort y estilo en un diseño contemporáneo. Suela de goma resistente, interior acolchado y materiales transpirables. El calzado perfecto para el día a día.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "name": "Silla Ergonómica",
+      "price": 149.99,
+      "category": "Hogar",
+      "description": "La Silla Ergonómica ofrece máximo confort para largas jornadas de trabajo. Ajustes personalizables, soporte lumbar y reposacabezas. Construida con materiales de alta durabilidad que garantizan años de uso.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "name": "Lámpara Minimalista",
+      "price": 59.99,
+      "category": "Hogar",
+      "description": "Lámpara de diseño minimalista que aporta calidez y estilo a cualquier espacio. Fabricada en metal y madera natural con acabados de alta calidad. Iluminación ajustable para diferentes ambientes.",
+      "featured": false,
+      "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 8,
+      "name": "Set de Maquillaje Profesional",
+      "price": 129.99,
+      "category": "Belleza",
+      "description": "Set completo con 35 sombras, labiales, bases y herramientas profesionales. Pigmentos de alta calidad, larga duración y acabado natural. Estuche elegante y fácil de transportar.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 9,
+      "name": "Reloj Clásico",
+      "price": 199.99,
+      "category": "Accesorios",
+      "description": "Reloj clásico con movimiento de cuarzo japonés, cristal de zafiro resistente a rayones y correa de cuero genuino. Diseño atemporal que combina con cualquier estilo.",
+      "featured": false,
+      "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 10,
+      "name": "Perfume Elegance",
+      "price": 89.99,
+      "category": "Belleza",
+      "description": "Fragancia sofisticada con notas cítricas, florales y un fondo amaderado. Larga duración y presentación en botella de diseño exclusivo. El complemento perfecto para cualquier ocasión especial.",
+      "featured": false,
+      "image": "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 11,
+      "name": "Audífonos Inalámbricos",
+      "price": 149.99,
+      "category": "Tecnología",
+      "description": "Audífonos inalámbricos con cancelación de ruido activa, batería de larga duración y sonido de alta fidelidad. Diseño cómodo para uso prolongado y conexión Bluetooth estable.",
+      "featured": true,
+      "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 12,
+      "name": "Bolso Elegante",
+      "price": 79.99,
+      "category": "Accesorios",
+      "description": "Bolso elegante de cuero sintético de alta calidad con compartimentos organizados y detalles metálicos. Perfecto para uso diario o salidas especiales.",
+      "featured": false,
+      "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
